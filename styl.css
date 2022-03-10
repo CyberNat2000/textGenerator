@@ -1,0 +1,30 @@
+body {
+    background-color: darkblue;
+    color: lightblue;
+    text-align: center;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+div {
+    color:chartreuse;
+}
+header .w1 {
+   font-size: 45px;
+   font-weight: 600;
+   margin-bottom: 0;
+}
+header .w2 {
+    font-size: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+header {
+    text-align: center;
+}
+footer {
+    color: lightblue;
+    font-weight: 200;
+    margin-top: 33%;
+}

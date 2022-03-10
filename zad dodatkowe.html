@@ -1,0 +1,25 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <meta charset="uft-8">
+        <title> Tekst Wspak</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body onload="edycja()">
+        <header><p class="w1">Text Generator</p>
+        <h2>Tekst Wspak</h2>
+        <p class="w2">Ta strona pozwoli Ci odkodować tekst pisany od tyłu lub zakodowanie własnego. Przydaje się w dłuższych wiadomościach zapisanych w ten sposób.</p> 
+        </header>
+        <input type="text" id="tekst" value="Dzień Dobry" onchange="edycja()">
+        <button onclick="reset()"> wyczyść </button>
+        <div id="odwrocony"></div>
+        <script type="text/javascript">
+            function edycja(){
+                document.getElementById("odwrocony").innerHTML="<h2>"+document.getElementById("tekst").value.split("").reverse().join("")+"</h2>";
+        }
+            function reset(){
+                document.getElementById("tekst").value=` `
+            }
+        </script>
+        <footer>(C) CGC 2022</footer>
+</body>
