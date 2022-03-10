@@ -1,0 +1,13 @@
+<html>
+<!DOCTYPE html>
+<head>
+    <title> Text Generator </title>
+    <meta charset="UFT-8" author="CGC" keyword="TextGenerator">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+ <h1> Text Generator</h1>
+ <nav>
+     <a scr="TextWspak"></a>
+ </nav>
+</body>
