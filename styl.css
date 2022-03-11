@@ -28,3 +28,17 @@ footer {
     font-weight: 200;
     margin-top: 33%;
 }
+nav {
+    float: left;
+}
+nav a {
+    height: 30px;
+    width: 200px;
+    background-color: darkcyan;
+    color: cyan;
+    text-size: 20px;
+}
+nav a:hover {
+    background-color: cyan;
+    color: darkcyan;
+}
