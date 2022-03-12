@@ -30,13 +30,16 @@ footer {
 }
 nav {
     float: left;
+    background-color: mediumaquamarine;
 }
 nav a {
     height: 30px;
     width: 200px;
     background-color: darkcyan;
     color: cyan;
-    text-size: 20px;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: cyan;
