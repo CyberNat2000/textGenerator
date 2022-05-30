@@ -8,5 +8,5 @@ function zamiana(rodzaj, tekst) {
         tekst2+= `${Znaki.OldEnglish[Znaki.normal.indexOf(tekst[i])]}`;
         else {tekst2+=tekst[i];}  
     }
-    console.log(tekst2);
+    document.getElementById("odwrocony").innerHTML="<h2>"+tekst2+"</h2>";
 }
