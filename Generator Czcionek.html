@@ -1,0 +1,23 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <meta charset="uft-8">
+        <title>Generator Czcionek</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body onload="edycja()">
+        <header><p class="w1">Text Generator</p>
+        <h2>Generator Czcionek</h2>
+        <p class="w2">Lorem Ipsum</p> 
+        </header>
+        <input type="text" id="tekst" value="Dzień Dobry" oninput="zamiana(null, document.getElementById(`tekst`).value)">
+        <button onclick="reset()"> wyczyść </button>
+        <div id="odwrocony"></div>
+        <script type="text/javascript">
+            function reset(){
+                document.getElementById("tekst").value=` `
+            }
+        </script>
+        <script src="Font Text Generator.js"></script>
+        <footer>(C) CGC 2022</footer>
+</body>
