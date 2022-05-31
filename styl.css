@@ -33,6 +33,7 @@ nav {
     background-color: mediumaquamarine;
 }
 nav a {
+    margin-bottom: 5px;
     height: 30px;
     width: 200px;
     background-color: darkcyan;
