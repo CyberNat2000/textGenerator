@@ -5,12 +5,15 @@
         <title>Generator Czcionek</title>
         <link rel="stylesheet" href="styl.css">
     </head>
-    <body onload="edycja()">
+    <body>
         <header><p class="w1">Text Generator</p>
         <h2>Generator Czcionek</h2>
-        <p class="w2">Lorem Ipsum</p> 
+        <p class="w2">Lorem Ipsum</p>
         </header>
-        <input type="text" id="tekst" value="Dzień Dobry" oninput="zamiana(null, document.getElementById(`tekst`).value)">
+        <select id="rodzaj">
+            <option value=1>𝔄𝔅ℭ</option>
+        </select>
+        <input type="text" id="tekst" value="Dzień Dobry" oninput="zamiana(document.getElementById(`rodzaj`).value, document.getElementById(`tekst`).value)">
         <button onclick="reset()"> wyczyść </button>
         <div id="odwrocony"></div>
         <script type="text/javascript">
