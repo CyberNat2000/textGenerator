@@ -52,5 +52,7 @@ function zamiana(rodzaj, tekst) {
         tekst2+= `${rodzaj[Znaki.normal.indexOf(tekst[i])]}`;
         else {tekst2+=tekst[i];}  
     }
+    if (rodzaj == "10"){
+      tekst2= tekst2.split(``).reverse().join(``); }
     document.getElementById("odwrocony").innerHTML="<h2>"+tekst2+"</h2>";
 }
