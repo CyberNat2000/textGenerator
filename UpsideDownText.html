@@ -1,0 +1,24 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <meta charset="uft-8">
+        <title>Upside down text</title>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        <header><p class="w1">Upside down text</p>
+        <h2>Tekst do góry nogami</h2>
+        <p class="w2">Ta strona pozwoli ci na sensowne odwrócenie tekstu do góry nogami za pomocą specjalnych znaków unicode</p>
+        </header>
+        <input type="text" id="tekst" value="Dzień Dobry" oninput="zamiana(10, document.getElementById(`tekst`).value.split(``).reverse().join(``))">
+        <button onclick="reset()"> wyczyść </button>
+        <div id="odwrocony"></div>
+        <script type="text/javascript">
+            function reset(){
+                document.getElementById("tekst").value=` `
+            }
+        </script>
+        <script src="Font Text Generator.js"></script>
+        <footer>(C) CGC 2022</footer>
+</body>
+</html>
