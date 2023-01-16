@@ -28,11 +28,11 @@ footer {
     font-weight: 200;
     margin-top: 33%;
 }
-nav {
+#nav {
     float: left;
     background-color: mediumaquamarine;
 }
-nav a {
+#nav a {
     margin-bottom: 5px;
     height: 30px;
     width: 230px;
@@ -43,7 +43,7 @@ nav a {
     text-decoration: none;
     font-family: monospace;
 }
-nav a:hover {
+#nav a:hover {
     background-color: cyan;
     color: darkcyan;
 }
