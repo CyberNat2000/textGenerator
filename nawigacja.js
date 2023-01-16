@@ -1,4 +1,4 @@
-document.getElementsByTagName("nav").innerHTML=
+document.getElementsByName("nav").innerHTML=
  `<a href=index>Strona Główna</a>
 <a href="TextWspak">Tekst Wspak</a>
 <a href="GeneratorCzcionek">Generator Czcionek</a>
